@@ -1,0 +1,15 @@
+import 'dart:async';
+
+import 'package:y_framework/base/base_bloc.dart';
+import 'package:y_framework/base/base_event.dart';
+import 'package:y_framework/base/base_view_to_presenter.dart';
+part '${bloc_snake_case}_event.dart';
+part '${bloc_snake_case}_state.dart';
+
+class ${bloc_pascal_case}Bloc extends BaseLoadBloc<${bloc_pascal_case}Event, ${bloc_pascal_case}State> {
+  ${bloc_pascal_case}Bloc(ViewToBloc view) : super(view,${bloc_pascal_case}Initial());
+
+   init(){
+
+   }
+}
